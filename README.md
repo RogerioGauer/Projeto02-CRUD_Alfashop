@@ -1,5 +1,5 @@
 
-Projeto CRUD em Java, sobre uma loja de instrumentos musicais.
+Projeto CRUD em Java, para uma loja de instrumentos musicais.
 
 	- Modelagem de dados e criação da estrutura de DB
 	- Criação das telas visuais (web e adm com Bootstrap e jQuery)
