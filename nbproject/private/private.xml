@@ -12,7 +12,10 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/User/Rogerio/Documents/Alfamídia/Java/Módulo03/Projeto02-CRUD_Alfashop/web/index.jsp</file>
+            <file>file:/C:/User/Rogerio/Documents/Alfamídia/Java/Módulo03/Projeto02-CRUD_Alfashop/src/java/br/com/alfashop/controller/CategoriasExec.java</file>
+            <file>file:/C:/User/Rogerio/Documents/Alfamídia/Java/Módulo03/Projeto02-CRUD_Alfashop/web/adm/categorias-update.jsp</file>
+            <file>file:/C:/User/Rogerio/Documents/Alfamídia/Java/Módulo03/Projeto02-CRUD_Alfashop/web/adm/dashboard.jsp</file>
+            <file>file:/C:/User/Rogerio/Documents/Alfamídia/Java/Módulo03/Projeto02-CRUD_Alfashop/src/java/br/com/alfashop/repository/ProdutoDAO.java</file>
         </group>
     </open-files>
 </project-private>

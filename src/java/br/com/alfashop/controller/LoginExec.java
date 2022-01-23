@@ -42,7 +42,7 @@ public class LoginExec extends HttpServlet {
         
         if (lstusu.size() > 0){
            //Se deu certo, vai para a página de administração.    
-           Usuario usu = lstusu.get(0); //Pega o primeiro objeto usuario da lista.
+           Usuario usu = lstusu.get(0); //Pega o primeiro objeto usuário da lista.
            session.setAttribute("usu", usu); //Cria uma variável de sessão com este objeto usuario.         
            destino = "dashboard.jsp";        
         }          

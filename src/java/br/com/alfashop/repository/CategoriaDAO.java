@@ -42,9 +42,9 @@ public class CategoriaDAO {
             while (rset.next()){ //Enquanto houver linhas no rset.
                 Categoria obj = new Categoria(); 
                 obj.setIdcategoria (rset.getLong("idcategoria"));
-                obj.setNome (rset.getString ("nome"));
-                obj.setDescricao (rset.getString ("descricao"));
-                obj.setAtivo (rset.getString ("ativo"));
+                obj.setNome (rset.getString("nome"));
+                obj.setDescricao (rset.getString("descricao"));
+                obj.setAtivo (rset.getString("ativo"));
                 //Adicionar o obj em uma lista.
                 lista.add(obj);                          
             }

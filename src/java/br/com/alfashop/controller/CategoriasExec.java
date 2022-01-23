@@ -33,7 +33,7 @@ public class CategoriasExec extends HttpServlet {
         response.sendRedirect("categorias.jsp");
     }
     
-        public void updateServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+    public void updateServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         //Pegar os parâmetros enviados do form.
         String sidc = request.getParameter("idc");
         Long idc = Long.parseLong(sidc);
@@ -56,7 +56,7 @@ public class CategoriasExec extends HttpServlet {
         response.sendRedirect("categorias.jsp");
     }
         
-        public void deleteServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+    public void deleteServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         //Pegar o parâmetro enviado pelo formulário.
         String sidc = request.getParameter("idc");
         Long idc = Long.parseLong(sidc);

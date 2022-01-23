@@ -52,7 +52,7 @@ pageContext.setAttribute("checnao", checnao);
                   
                   Ativo:
                   <br>
-                  <input type="radio" name="ati" value="s" ${checsim}> Sim <br>                 <br>
+                  <input type="radio" name="ati" value="s" ${checsim}> Sim <br><br>
                   <input type="radio" name="ati" value="n" ${checnao}> Não <br><br>
                   
                   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
